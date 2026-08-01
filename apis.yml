@@ -1,8 +1,31 @@
 aid: plexistor
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/plexistor.png
 name: Plexistor
-description: Plexistor is a company surfaced as a portfolio company of battery-ventures, lightspeed-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Plexistor was an enterprise storage startup that built Software-Defined Memory
+  (SDM) - a converged memory-and-storage architecture delivering ultra-low
+  latency and millions of IOPS on commodity servers by tiering across DRAM,
+  NVDIMM-N, Intel/Micron 3D XPoint, flash, and spinning disk. It positioned SDM
+  as a persistent-memory storage layer for big-data workloads such as Cassandra,
+  Couchbase, and Spark, adding enterprise features like snapshots, clones, high
+  availability, and clustering. The company was acquired by NetApp in 2017 and
+  its technology was folded into NetApp's memory/storage roadmap. The plexistor.com
+  site survives as a static legacy marketing page with no active product download,
+  API, SDK, or developer portal. This profile was surfaced as a portfolio company
+  of Battery Ventures and Lightspeed Venture Partners and enriched by the API
+  Evangelist pipeline; the honest result is that Plexistor exposes no public API
+  surface.
 url: https://raw.githubusercontent.com/api-evangelist/plexistor/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,12 +36,29 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Storage
+- Persistent Memory
+- Software-Defined Memory
+- Data Infrastructure
+- Enterprise Storage
+- NVDIMM
+- Acquired
 apis: []
+common:
+- type: Website
+  url: https://plexistor.com/
+- type: DomainSecurity
+  url: security/plexistor-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1

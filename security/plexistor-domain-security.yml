@@ -1,0 +1,23 @@
+generated: '2026-07-20'
+method: probed
+source: dig + TLS/HTTP HEAD on plexistor.com (legacy marketing host)
+hosts:
+  - host: plexistor.com
+    https: true
+    tls_version: TLSv1.3
+    hsts: false
+    hsts_max_age: null
+    cert_not_after: '2026-09-25'
+    server: cloudflare
+domains:
+  - domain: plexistor.com
+    dnssec: false
+    caa: []
+    spf: false
+    dmarc: false
+    dmarc_policy: null
+notes: >-
+  plexistor.com resolves to a Cloudflare-fronted legacy marketing site for the
+  defunct Software-Defined Memory (SDM) product. No API, developer, or mail
+  security posture is published; absence of HSTS/DNSSEC/CAA/SPF/DMARC is
+  recorded as valid probed data.
