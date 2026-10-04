@@ -78,3 +78,7 @@ x-enrichment:
   status: minimal
   artifacts_added: 1
   pass: local-v1
+x-status: acquired
+x-acquired-by: netapp
+x-acquired-date: '2017-05-29'
+x-status-source: https://tech.eu/2017/05/29/netapp-acquires-plexistor/
